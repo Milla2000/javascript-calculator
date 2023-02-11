@@ -6,6 +6,7 @@ let firstValue = 0; // number zero not string remember
 let operatorValue = '';
 let awaitingNextValue = false;
 
+
 function sendNumberValue(number){
    //replace current display value if first value is entered
    if(awaitingNextValue === true){
